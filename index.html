@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+</head>
+<body>
+    <div class="container pt-5">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/foto1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Je Santiago</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/foto2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Bloco 7</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./images/foto3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Microphone</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12 mb-5">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Hip-Hop
+                    </header>
+                    <div class="card-body">
+                        <h4 class="card-title">Gênero que vem na crescente</h4>
+                        <p class="card-text">
+                            Há quem diga que o rap morreu no início dos anos 2000. Mas, a verdade é que, assim como todos os estilos musicais, ele vem se renovando e se mostrando com uma nova roupagem, de acordo com a evolução dos temas vividos, as novas influência e o cenário atual do país. Por isso, nós, do Tudo Pop, preparamos uma lista com os novos artistas da cena do rap que, sem dúvidas, vem mostrando que o gênero ainda faz jus a sua proposta inicial. 
+                        </p>
+                        <a href="#" class="btn btn-secondary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>03/07/2023 às 10:08.</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mb-5">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        MC
+                    </header>
+                    <div class="card-body">
+                        <h4 class="card-title">Mestre de Cerimônias</h4>
+                        <p class="card-text">
+                            Sua função é passar sua visão de mundo por meio dos acordes e de suas letras pode ser um artista que atua no âmbito musicalou pode ser o apresentador de um determinado evento que não está necessariamente ligado a uma manifestação musical..
+                        </p>
+                        <a href="#" class="btn btn-secondary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>03/07/2023 às 10:08.</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12 mb-5">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        MC
+                    </header>
+                    <div class="card-body">
+                        <h4 class="card-title">Origem</h4>
+                        <p class="card-text">
+                            Segundo consta, surgiu na Jamaica durante a década de 60, e foi levado para os EUA, na década de 70. Mais propriamente para os bairros pobres de Nova Iorque, onde os jovens de origem negra e espanica, que em busca de uma sonoridade diferente, deram assim um novo impulso e um novo significa ao Rap
+                        </p>
+                        <a href="#" class="btn btn-secondary">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>03/07/2023 às 10:08.</time>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./libs/bootstrap.bundle.min.js"></script>
+</body>
+</html>
